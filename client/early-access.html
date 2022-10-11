@@ -41,7 +41,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -247,7 +247,7 @@
     });      
   </script>
   <script>
-    var stripe = Stripe('');
+    var stripe = Stripe('pk_test_51LrczDH1N244HbHM4Wr1QUMuZoq45wL6jZRJgkVqmhA6wtEqngoNajZR1ZLGLTZGZ8hlIyqurTDGY1hpPUtM5ydM006YlJd2Lf');
     var elements = stripe.elements();
     // Custom styling can be passed to options when creating an Element.
     var style = {
