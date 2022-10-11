@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Oct 11 2022 06:45:09 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Oct 11 2022 16:08:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="633fcd3eab67d80a4c0ac280" data-wf-site="62a1a68347d84370532e079a">
 
 <head>
@@ -53,7 +53,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -68,7 +68,6 @@
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=567729321820683&ev=PageView&noscript=1"></noscript>
   <!--  End Meta Pixel Code  -->
-  <meta name="facebook-domain-verification" content="3tixqt5wmfwxfkttrou3zwz4xe2e8w" />
 </head>
 
 <body class="body">
@@ -394,7 +393,7 @@
     eventThree1.addEventListener('submit', function () {
       fbq('trackCustom', 'Index Page Submit Button Click', { eventID: '3' });
     });
-    /*var eventThree2 = document.getElementById('eventThree2');
+  /*var eventThree2 = document.getElementById('eventThree2');
     eventThree2.addEventListener('submit', function () {
       fbq('trackCustom', 'Index Page Submit Button Click', { eventID: '3' });
     });*/
@@ -418,18 +417,18 @@
     eventTwo1.addEventListener("click", function () {
       serverSideTracking("Index Page Get Early Access Button Click", window.location.href, "2")
     });
-    /*var eventTwo2 = document.getElementById("eventTwo2");
+    var eventTwo2 = document.getElementById("eventTwo2");
     eventTwo2.addEventListener("click", function () {
       serverSideTracking("Index Page Get Early Access Button Click", window.location.href, "2")
-    });*/
+    });
     var eventThree1 = document.getElementById("eventThree1");
     eventThree1.addEventListener("submit", function () {
       serverSideTracking("Index Page Submit Button Click", window.location.href, "3")
     });
-    /*var eventThree2 = document.getElementById("eventThree2");
+    var eventThree2 = document.getElementById("eventThree2");
     eventThree2.addEventListener("submit", function () {
       serverSideTracking("Index Page Submit Button Click", window.location.href, "3")
-    });*/
+    });       
   </script>
 </body>
 
